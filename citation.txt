@@ -1,0 +1,7 @@
+@inproceedings{REPO069,
+    author = "Chen, Bin and Yin, Jiali and Chen, Shukai and Chen, Bohao and Liu, Ximeng",
+    booktitle = "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    pages = "4489--4498",
+    title = "{An Adaptive Model Ensemble Adversarial Attack for Boosting Adversarial Transferability}",
+    year = "2023"
+}
