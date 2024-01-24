@@ -1,0 +1,36 @@
+resnet18:
+ full_name: resnet18
+ ckp_path: resnet18/resnet18.pth.tar
+
+resnet50:
+ full_name: resnet50
+ ckp_path: resnet50.pth.tar
+ 
+wrn101_2:
+ full_name: wide_resnet101_2
+ ckp_path: wide_resnet101_2.pth.tar
+
+bit101_1:
+ full_name: resnetv2_101x1_bitm
+ ckp_path: resnetv2_101x1_bitm.pth.tar
+
+vit_b:
+ full_name: vit_base_patch16_224
+ ckp_path: vit_base.pth.tar
+
+vit_t:
+ full_name: vit_tiny_patch16_224
+ ckp_path: vit_t/vit_tiny.pth.tar
+
+# deit_b:
+#  full_name: deit_base_patch16_224
+#  ckp_path: deit_base.pth.tar
+
+# deit_s:
+#  full_name: deit_small_patch16_224
+#  ckp_path: deit_s/deit_small.pth.tar
+
+# deit_t:
+#  full_name: deit_tiny_patch16_224
+#  ckp_path: deit_t/deit_tiny.pth.tar
+

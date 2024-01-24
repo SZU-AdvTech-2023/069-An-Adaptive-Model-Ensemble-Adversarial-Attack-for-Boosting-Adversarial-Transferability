@@ -1,0 +1,3 @@
+dataset:
+  imagenet1000_path: ../data/image_1k/images/
+  csv_path: ../data/image_1k/dev_dataset.csv

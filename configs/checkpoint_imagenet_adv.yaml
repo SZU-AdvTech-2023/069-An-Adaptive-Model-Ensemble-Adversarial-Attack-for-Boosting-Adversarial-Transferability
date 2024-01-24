@@ -1,0 +1,29 @@
+# 代理模型
+resnet18:
+ full_name: resnet18
+ ckp_path: resnet18_cifar100_aug3.pth
+
+inc_v3:
+ full_name: inception_v3
+ ckp_path: inception_v3_cifar100_aug3.pth
+
+vit_t:
+ full_name: vit_tiny_patch16_224
+ ckp_path: vit_tiny_patch16_224_cifar100_aug3.pth
+
+deit_t:
+ full_name: deit_tiny_patch16_224
+ ckp_path: deit_tiny_patch16_224_cifar100_aug3.pth
+
+# 目标模型
+inc_v3_ens3:
+ full_name: IncV3Ens3
+ ckp_path: tf2torch_ens3_adv_inc_v3.npy
+
+inc_v3_ens4:
+ full_name: IncV3Ens4
+ ckp_path: tf2torch_ens4_adv_inc_v3.npy
+
+inc_res_v3_ens:
+ full_name: IncResV2Ens
+ ckp_path: tf2torch_ens_adv_inc_res_v2.npy
